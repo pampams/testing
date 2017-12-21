@@ -30,7 +30,7 @@
                     android:layout_weight="1"
                     android:gravity="left|center_vertical"
                     android:lines="1"
-                    android:text="WHATS NEW"
+                    android:text="POPULARITY TODAY"
                     android:textColor="@android:color/black"
                     android:textStyle="bold" />
 
@@ -93,7 +93,7 @@
                         android:layout_gravity="left|start"
                         android:layout_marginTop="8sp"
                         android:layout_weight="1"
-                        android:text="FIRST DIBS"
+                        android:text="BALENCIAGA"
                         android:textColor="@android:color/black"
                         android:textSize="14sp" />
 
@@ -103,6 +103,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="left"
                         android:layout_weight="1"
+                        android:textSize="12sp"
                         android:text="Black and Solitaire" />
 
                 </LinearLayout>
@@ -197,7 +198,7 @@
                     android:layout_weight="1"
                     android:gravity="left|center_vertical"
                     android:lines="1"
-                    android:text="WHATS NEW"
+                    android:text="WE CHOOSE FOR YOU"
                     android:textColor="@android:color/black"
                     android:textStyle="bold" />
 
