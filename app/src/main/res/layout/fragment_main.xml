@@ -48,28 +48,28 @@
 
                 <ImageView
                     android:id="@+id/imgWomen"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:src="@drawable/ik_women" />
 
                 <ImageView
                     android:id="@+id/imgMen"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:src="@drawable/ik_men" />
 
                 <ImageView
                     android:id="@+id/imgEvent"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:src="@drawable/ik_event" />
 
                 <ImageView
                     android:id="@+id/imgOutlet"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:src="@drawable/ik_outlet" />
@@ -84,24 +84,28 @@
 
                 <ImageView
                     android:id="@+id/imgSale"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:src="@drawable/ik_sale" />
 
                 <ImageView
                     android:id="@+id/imgCoupon"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:src="@drawable/ik_kupon" />
 
                 <ImageView
                     android:id="@+id/imgSell"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:src="@drawable/ik_sell" />
+                <View
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
             </LinearLayout>
 
             <LinearLayout
