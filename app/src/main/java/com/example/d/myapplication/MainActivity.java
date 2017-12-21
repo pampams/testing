@@ -24,9 +24,11 @@ public class MainActivity extends AppCompatActivity {
     private TabLayout tabLayout;
     private ViewPager viewPager;
     private int[] tabIcons = {
-            R.drawable.ic_home,
-            R.drawable.ic_assesment,
-            R.drawable.ic_filter
+            R.drawable.grid,
+            R.drawable.barchart,
+            R.drawable.filter,
+            R.drawable.activity,
+            R.drawable.settings
     };
 
 
@@ -62,6 +64,8 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.getTabAt(0).setIcon(tabIcons[0]);
         tabLayout.getTabAt(1).setIcon(tabIcons[1]);
         tabLayout.getTabAt(2).setIcon(tabIcons[2]);
+        tabLayout.getTabAt(3).setIcon(tabIcons[3]);
+        tabLayout.getTabAt(4).setIcon(tabIcons[4]);
     }
 
     private void setupViewPager(ViewPager viewPager) {
@@ -69,6 +73,8 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFragment(new MainActivityFragment(), "ONE");
         adapter.addFragment(new TwoFragment(), "TWO");
         adapter.addFragment(new ThreeFragment(), "THREE");
+        adapter.addFragment(new FourFragment(), "FOUR");
+        adapter.addFragment(new FiveFragment(), "FIVE");
         viewPager.setAdapter(adapter);
     }
 

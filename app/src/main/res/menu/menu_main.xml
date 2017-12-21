@@ -6,12 +6,12 @@
     <!-- "Mark Favorite", should appear as action button if possible -->
     <item
         android:id="@+id/app_chat"
-        android:icon="@drawable/ic_chat"
+        android:icon="@drawable/messagesquare"
         android:title="@string/chat"
         app:showAsAction="always" />
     <item
         android:id="@+id/app_account"
-        android:icon="@drawable/ic_account"
+        android:icon="@drawable/user"
         android:title="@string/account"
         app:showAsAction="always" />
     <!--<item-->
