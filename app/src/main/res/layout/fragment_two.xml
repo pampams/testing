@@ -14,7 +14,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <LinearLayout
                 android:id="@+id/ln-ct-1"
@@ -26,7 +26,7 @@
                     android:id="@+id/tWhatsNew"
                     android:layout_width="260dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
+                    android:layout_marginStart="12dp"
                     android:layout_weight="1"
                     android:gravity="left|center_vertical"
                     android:lines="1"
@@ -61,33 +61,29 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/card-ln1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16sp"
+                android:layout_marginStart="8sp"
+                android:layout_marginEnd="8sp"
                 android:layout_marginTop="16dp"
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="left"
-                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_alignParentBottom="true"
-                        android:layout_alignParentEnd="true"
                         android:layout_gravity="left"
-                        android:layout_weight="1"
                         android:scaleType="center"
                         android:src="@drawable/card_1" />
 
                     <TextView
-                        android:id="@+id/textView15"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="left|start"
@@ -98,93 +94,147 @@
                         android:textSize="14sp" />
 
                     <TextView
-                        android:id="@+id/textView"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="left"
                         android:layout_weight="1"
-                        android:textSize="12sp"
-                        android:text="Black and Solitaire" />
+                        android:text="Balencia Tote M"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|start"
+                        android:layout_marginTop="8sp"
+                        android:layout_weight="1"
+                        android:text="From $1,092.29"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/strikethrough"
+                        android:text="$1,492.29"
+                        android:textSize="12sp" />
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="16sp"
-                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/ivc21"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_weight="1"
+                        android:layout_gravity="left"
                         android:scaleType="center"
                         android:src="@drawable/card_2" />
 
                     <TextView
-                        android:id="@+id/textView16"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="left"
+                        android:layout_gravity="left|start"
                         android:layout_marginTop="8sp"
                         android:layout_weight="1"
-                        android:text="CLEARANCE"
-                        android:textColor="@android:color/black" />
+                        android:text="BALENCIAGA"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp" />
 
                     <TextView
-                        android:id="@+id/textView13"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="left"
                         android:layout_weight="1"
-                        android:text="Michael Kors" />
+                        android:text="Balencia Tote M"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|start"
+                        android:layout_marginTop="8sp"
+                        android:layout_weight="1"
+                        android:text="From $1,092.29"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/strikethrough"
+                        android:text="$1,492.29"
+                        android:textSize="12sp" />
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_marginLeft="16sp"
-                    android:gravity="right"
+                    android:layout_weight="1"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_alignParentBottom="false"
                         android:layout_gravity="left"
-                        android:layout_toEndOf="@+id/ivc21"
-                        android:layout_weight="1"
                         android:scaleType="center"
-                        android:src="@drawable/card_3" />
+                        android:src="@drawable/card_4" />
 
                     <TextView
-                        android:id="@+id/textView18"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="left"
+                        android:layout_gravity="left|start"
                         android:layout_marginTop="8sp"
                         android:layout_weight="1"
-                        android:text="NIGHT OUT"
-                        android:textColor="@android:color/black" />
+                        android:text="BALENCIAGA"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp" />
 
                     <TextView
-                        android:id="@+id/textView14"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="left"
                         android:layout_weight="1"
-                        android:gravity="start"
-                        android:text="Weekend" />
+                        android:text="Balencia Tote M"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|start"
+                        android:layout_marginTop="8sp"
+                        android:layout_weight="1"
+                        android:text="From $1,092.29"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/strikethrough"
+                        android:text="$1,492.29"
+                        android:textSize="12sp" />
+
                 </LinearLayout>
 
+
+
+
             </LinearLayout>
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -194,7 +244,7 @@
                 <TextView
                     android:layout_width="260dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
+                    android:layout_marginStart="12dp"
                     android:layout_weight="1"
                     android:gravity="left|center_vertical"
                     android:lines="1"
@@ -227,129 +277,182 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/card-ln2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
+                android:layout_marginStart="8sp"
+                android:layout_marginEnd="8sp"
                 android:layout_marginTop="16dp"
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="left"
-                    android:gravity="left"
+                    android:layout_weight="1"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/img-card-ln2-1-1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_alignParentBottom="true"
-                        android:layout_alignParentEnd="true"
                         android:layout_gravity="left"
-                        android:layout_weight="1"
                         android:scaleType="center"
-                        android:src="@drawable/card_4" />
+                        android:src="@drawable/card_1" />
 
                     <TextView
-                        android:id="@+id/text-card-ln2-1-1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="left|start"
                         android:layout_marginTop="8sp"
                         android:layout_weight="1"
-                        android:text="NEW ARRIVEVAL"
+                        android:text="BALENCIAGA"
                         android:textColor="@android:color/black"
                         android:textSize="14sp" />
 
                     <TextView
-                        android:id="@+id/text-card-ln2-1-2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="left"
                         android:layout_weight="1"
-                        android:text="Our Style" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="16sp"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/img-card-ln2-2-1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_weight="1"
-                        android:contentDescription="TODO"
-                        android:scaleType="center"
-                        android:src="@drawable/card_5" />
+                        android:text="Balencia Tote M"
+                        android:textSize="12sp" />
 
                     <TextView
-                        android:id="@+id/text-card-ln2-2-1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="left"
+                        android:layout_gravity="left|start"
                         android:layout_marginTop="8sp"
                         android:layout_weight="1"
-                        android:text="IN DEMAND"
-                        android:textColor="@android:color/black" />
+                        android:text="From $1,092.29"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:textStyle="italic" />
 
                     <TextView
-                        android:id="@+id/text-card-ln2-2-2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="left"
                         android:layout_weight="1"
-                        android:text="Michael Kors" />
+                        android:background="@drawable/strikethrough"
+                        android:text="$1,492.29"
+                        android:textSize="12sp" />
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_marginLeft="16sp"
-                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/img-card-ln2-3-1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_alignParentBottom="false"
                         android:layout_gravity="left"
-                        android:layout_toEndOf="@+id/ivc21"
-                        android:layout_weight="1"
                         android:scaleType="center"
-                        android:src="@drawable/card_6" />
+                        android:src="@drawable/card_2" />
 
                     <TextView
-                        android:id="@+id/text-card-ln2-3-1"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="left"
+                        android:layout_gravity="left|start"
                         android:layout_marginTop="8sp"
                         android:layout_weight="1"
-                        android:text="1 PRICED"
-                        android:textColor="@android:color/black" />
+                        android:text="BALENCIAGA"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp" />
 
                     <TextView
-                        android:id="@+id/text-card-ln2-3-2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="left"
                         android:layout_weight="1"
-                        android:gravity="start"
-                        android:text="The Glitteral" />
+                        android:text="Balencia Tote M"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|start"
+                        android:layout_marginTop="8sp"
+                        android:layout_weight="1"
+                        android:text="From $1,092.29"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/strikethrough"
+                        android:text="$1,492.29"
+                        android:textSize="12sp" />
+
                 </LinearLayout>
+
+                <LinearLayout
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:scaleType="center"
+                        android:src="@drawable/card_4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|start"
+                        android:layout_marginTop="8sp"
+                        android:layout_weight="1"
+                        android:text="BALENCIAGA"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_weight="1"
+                        android:text="Balencia Tote M"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|start"
+                        android:layout_marginTop="8sp"
+                        android:layout_weight="1"
+                        android:text="From $1,092.29"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/strikethrough"
+                        android:text="$1,492.29"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+
+
+
             </LinearLayout>
+
+
+
 
         </LinearLayout>
     </ScrollView>
