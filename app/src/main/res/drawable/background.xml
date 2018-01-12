@@ -2,8 +2,9 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@android:color/white"/>
 
-    <item>
-        <bitmap android:src="@drawable/logo" android:gravity="center">
-        </bitmap>
-    </item>
+    <item
+        android:width="100dp"
+        android:height="100dp"
+        android:drawable="@drawable/logo"
+        android:gravity="center" />
 </layer-list>
